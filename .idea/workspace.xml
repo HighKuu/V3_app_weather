@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fa8155-16d3-421c-ba0a-c5c03d6339c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/P3_weather.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_meteo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Carte météo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Graphiques.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Interface principale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_meteo.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_meteo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
