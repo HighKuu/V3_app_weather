@@ -309,7 +309,7 @@ if city:
             icon=folium.Icon(color='blue', icon='cloud')
         ).add_to(carte)
 
-        st_folium(carte, width=700, height=500)
+        st_folium(carte, width=700, height=500,key="ma_carte_unique")
 
     else:
         st.error("Impossible de créer la carte : coordonnées manquantes")
