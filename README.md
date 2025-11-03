@@ -240,8 +240,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 **Halim**
 - Portfolio : [votre-portfolio.com](https://votre-portfolio.com)
-- LinkedIn : [votre-linkedin](https://linkedin.com/in/votre-profil)
-- GitHub : [votre-github](https://github.com/votre-username)
+- LinkedIn : [votre-linkedin]([https://linkedin.com/in/votre-profil](https://www.linkedin.com/in/halim-moulay-219b30274/))
+- GitHub : [votre-github]([https://github.com/votre-username](https://github.com/HighKuu))
 
 ---
 
@@ -256,7 +256,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 📊 Statistiques du projet
 
 - **Lignes de code** : ~400
-- **Temps de développement** : 1 journée
+- **Temps de développement** : 2 jours
 - **Technologies** : 6
 - **Graphiques** : 3
 - **Features** : 8
