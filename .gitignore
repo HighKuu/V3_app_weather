@@ -1,0 +1,6 @@
+# Fichiers et dossiers à ignorer
+.env
+__pycache__/
+.DS_Store
+.idea/
+.streamlit/
