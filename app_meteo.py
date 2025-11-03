@@ -314,34 +314,4 @@ if city:
     else:
         st.error("Impossible de créer la carte : coordonnées manquantes")
 
-    # Créer la carte centrée sur la ville
-    carte = folium.Map(
-        location=[lat, lon],
-        zoom_start=12,
-        tiles='https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
-        attr='Google'
-    )
-
-    folium.TileLayer(
-        tiles=f'http://tile.openweathermap.org/map/precipitation_new/{{z}}/{{x}}/{{y}}.png?appid={API_KEY}',
-        attr='OpenWeatherMap',
-        name='Précipitations',
-        overlay=True,
-        control=True,
-        opacity=0.7
-    ).add_to(carte)
-
-    # Ajouter contrôle des couches
-    folium.LayerControl().add_to(carte)
-
-    # Ajouter un marqueur pour la ville
-    folium.Marker(
-        [lat, lon],
-        popup=f"{city.capitalize()}<br>{temperature}°C<br>{description}",
-        tooltip=f"Cliquez pour plus d'infos",
-        icon=folium.Icon(color='blue', icon='cloud')
-    ).add_to(carte)
-
-    # Afficher la carte dans Streamlit
-    st_folium(carte, width=700, height=500)
 
