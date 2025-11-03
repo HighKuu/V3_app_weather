@@ -4,7 +4,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -228,11 +227,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 4. Push vers la branche (`git push origin feature/amelioration`)
 5. Ouvrir une Pull Request
 
----
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
