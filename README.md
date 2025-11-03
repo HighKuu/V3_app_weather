@@ -16,9 +16,9 @@ Application météo développée avec **Streamlit** qui offre des prévisions m�
 
 - 🌍 **Recherche mondiale** : Météo pour n'importe quelle ville
 - 📊 **Visualisations avancées** : Graphiques de température, pression et précipitations
-- 🗺️ **Carte interactive** : Couches météo superposées (Google Maps + OpenWeatherMap)
+- 🗺️ **Carte interactive** : Couches météo superposées qui permet de voir la pluie en tps réel (Google Maps + OpenWeatherMap)
 - 📈 **Analyses automatiques** : Statistiques et recommandations intelligentes
-- 🎨 **Design moderne** : Interface sombre professionnelle
+- 🎨 **Design moderne** : Interface sobre
 - 🇫🇷 **Interface française** : Dates et unités localisées
 
 ---
@@ -31,6 +31,7 @@ Application météo développée avec **Streamlit** qui offre des prévisions m�
 - **Pandas** - Manipulation et analyse de données
 - **Matplotlib** - Visualisation de données
 - **Folium** - Cartographie interactive
+-  **Datetime** - Manipulation des dates
 
 ### APIs & Services
 - **OpenWeatherMap API** - Données météorologiques en temps réel
