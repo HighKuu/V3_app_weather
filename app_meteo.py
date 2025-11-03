@@ -281,6 +281,41 @@ if city:
             st.success("☀️ **Il va faire chaud !** Crème solaire recommandée, température moyenne de {:.1f}°C.".format(
                 temp_moyenne))
 
+
+
+    # modif
+    if 'lat' in locals() and 'lon' in locals():
+        # Créer la carte centrée sur la ville
+        carte = folium.Map(
+            location=[lat, lon],
+            zoom_start=12,
+            tiles='https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+            attr='Google'
+        )
+
+        folium.TileLayer(
+            tiles=f'http://tile.openweathermap.org/map/precipitation_new/{{z}}/{{x}}/{{y}}.png?appid={API_KEY}',
+            attr='OpenWeatherMap',
+            name='Précipitations',
+            overlay=True,
+            control=True,
+            opacity=0.7
+        ).add_to(carte)
+
+        folium.LayerControl().add_to(carte)
+
+        folium.Marker(
+            [lat, lon],
+            popup=f"{city.capitalize()}<br>{temperature}°C<br>{description}",
+            tooltip=f"Cliquez pour plus d'infos",
+            icon=folium.Icon(color='blue', icon='cloud')
+        ).add_to(carte)
+
+        st_folium(carte, width=700, height=500)
+
+    else:
+        st.error("Impossible de créer la carte : coordonnées manquantes")
+
     # Créer la carte centrée sur la ville
     carte = folium.Map(
         location=[lat, lon],
