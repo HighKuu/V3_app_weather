@@ -6,11 +6,9 @@ from datetime import datetime
 import folium
 from streamlit_folium import st_folium
 import locale
-from dotenv import load_dotenv
-import os
+import streamlit as st
 
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
+API_KEY = st.secrets["API_KEY"]
 
 try:
     locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
