@@ -239,7 +239,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👨‍💻 Auteur
 
 **Halim**
-- Portfolio : [votre-portfolio.com](https://votre-portfolio.com)
+- Portfolio : 
 - LinkedIn : [votre-linkedin]([https://linkedin.com/in/votre-profil](https://www.linkedin.com/in/halim-moulay-219b30274/))
 - GitHub : [votre-github]([https://github.com/votre-username](https://github.com/HighKuu))
 
@@ -263,4 +263,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
-*Projet réalisé dans le cadre du développement d'un portfolio Data Analyst* 🚀
+*Projet réalisé dans le cadre de me faire ma propre app météo* 
