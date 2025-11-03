@@ -31,7 +31,7 @@ Application météo développée avec **Streamlit** qui offre des prévisions m�
 - **Pandas** - Manipulation et analyse de données
 - **Matplotlib** - Visualisation de données
 - **Folium** - Cartographie interactive
--  **Datetime** - Manipulation des dates
+-  **Datetime** - Gestion et manipulation des dates et heures
 
 ### APIs & Services
 - **OpenWeatherMap API** - Données météorologiques en temps réel
@@ -134,20 +134,19 @@ with col2:
 ### 5. 🗺️ Folium - Cartographie interactive
 - Création de cartes centrées
 - Marqueurs personnalisés
-- Couches superposées (layers)
+- Couches superposées
 - Popups et tooltips
 - Contrôle des couches
 - Intégration avec Streamlit
 
 **Couches météo disponibles :**
-- Température
-- Précipitations
 - Nuages
+- Température (à améliorer)
+- Précipitations (à améliorer)
 
 ### 6. 🤖 Analyses automatiques
 - Calculs statistiques (moyenne, min, max, somme)
 - Logique conditionnelle complexe
-- Génération de recommandations
 - Messages contextuels
 
 **Analyses effectuées :**
