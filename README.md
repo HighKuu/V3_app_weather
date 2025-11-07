@@ -250,7 +250,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 ## 📊 Statistiques du projet
 
 - **Lignes de code** : ~400
-- **Temps de développement** : 2 jours
+- **Temps de développement** : 10 jours
 - **Technologies** : 6
 - **Graphiques** : 3
 - **Features** : 8
